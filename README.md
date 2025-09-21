@@ -1,6 +1,6 @@
 ## **Microwatt-Powered Industrial IoT Safety SoC with Ultra-Low Power Wake-Up Receiver for Industry 4.0**
 
-[![Microwatt Design Challenge](https://img.shields.io/badge/Microwatt%20Design%20Challenge-Participating-blue)](https://chipfoundry.io/challenges/microwatt)
+[![ChipFoundry](https://img.shields.io/badge/Platform-ChipFoundry-darkblue)](https://chipfoundry.io/challenges/microwatt)
 [![Microwatt OpenPOWER](https://img.shields.io/badge/Core-Microwatt%20OpenPOWER-darkred)](https://github.com/antonblanchard/microwatt)
 [![Caravel SoC](https://img.shields.io/badge/Integration-Caravel%20SoC-darkgreen)](https://github.com/efabless/caravel)
 [![Tapeout Ready](https://img.shields.io/badge/Goal-Tapeout%20Ready-purple)](https://en.wikipedia.org/wiki/Photomask)
