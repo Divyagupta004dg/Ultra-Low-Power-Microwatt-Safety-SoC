@@ -6,3 +6,5 @@
 [![Tapeout Ready](https://img.shields.io/badge/Goal-Tapeout%20Ready-purple)](https://en.wikipedia.org/wiki/Photomask)
 
 *IndusGuard: Microwatt-Powered Safety Chip is a batteryless SoC for industrial and medical safety. Current devices waste power, need frequent batteries, and are hard to integrate. IndusGuard uses open-source RISC-V/POWER, energy harvesting, and ChipFoundry–Caravel integration to deliver ultra-low-power, always-on monitoring. It offers a reliable, secure, and cost-effective solution—proving India’s potential in building certifiable, tapeout-ready open chips for continuous protection.*
+
+![Image](https://github.com/user-attachments/assets/3d98cbc6-7ca3-4f79-8f1a-7e431ba99683)
