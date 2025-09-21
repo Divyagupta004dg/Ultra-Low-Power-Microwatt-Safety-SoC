@@ -45,3 +45,7 @@ This project proposes a universal safety-focused IoT SoC integrating Microwatt w
    3 Reliability & scalability for trillions of sensors in Industry 4.0.
 
 ***• Aligns with sustainability goals and open-source hardware adoption.***
+
+**Key Goal**
+
+Design and fabricate an Industrial IoT Safety SoC.
