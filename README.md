@@ -50,6 +50,35 @@ This project proposes a universal safety-focused IoT SoC integrating Microwatt w
 
 Design and fabricate an Industrial IoT Safety SoC.
 
+
+ChatGPT said:
+
+To get started with making the necessary changes, please paste the contents of the following files:
+
+1 config.json:
+
+This file holds the configurations for the project, such as design name, clock settings, and path to the Verilog files. I need to check and modify the parameters related to your Microwatt core integration and your project specifications.
+
+2 interactive.tcl:
+
+This file controls the interactive settings and flow of the OpenLane tool. Any modifications or additions related to synthesis and routing need to be reflected here.
+
+3 macro.cfg:
+
+This file contains macro configurations. It’s important to ensure that all the macros for Microwatt (or any additional modules you add) are configured correctly.
+
+4 pdn_cfg.tcl:
+
+This file deals with power domain configurations. We need to make sure the power handling aligns with your low-power design.
+
+5 pin_order.cfg:
+
+This file contains the pin configuration. We need to update it based on your project’s GPIO pin connections and your desired I/O mapping.
+
+6 signoff.sdc and base.sdc:
+
+These files handle the timing constraints for the design. Any changes to clock constraints or timing requirements will go here.
+
 ### 1 Open Lane (config.json Changes)
 
 #### Key Changes and Explanations:
@@ -75,3 +104,24 @@ Design and fabricate an Industrial IoT Safety SoC.
 - CORE_AREA and DIE_AREA:
 
    - The core and die area have been set to the default values; you can adjust them based on your project’s space constraints and specific requirements.
+
+
+### 1 Open Lane (macro.cfg Changes)
+
+Key Changes & Considerations:
+
+1 Microwatt Core Placement:
+
+I added a placeholder for your Microwatt core (microwatt_core 1600 1800 FN). Adjust these coordinates based on the physical area available in your core and layout.
+
+2 Sensor Modules and Custom Components:
+
+If you’re using additional modules like sensors or other peripherals (e.g., user_project_timer), define their placements similarly with appropriate coordinates.
+
+3 Power Connections (vccd1_connection, vssd1_connection):
+
+The placement of power connections (vccd1 and vssd1) is already provided, but ensure that these are placed in a way that they connect to your design’s power grid correctly.
+
+4 Additional Macros:
+
+If you are using other macros (e.g., SRAM, custom accelerators), add their placements here. Ensure that these components are placed within the boundaries of the CORE_AREA as defined in your config.json.
