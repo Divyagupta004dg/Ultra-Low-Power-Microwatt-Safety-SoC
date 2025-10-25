@@ -49,3 +49,29 @@ This project proposes a universal safety-focused IoT SoC integrating Microwatt w
 **Key Goal**
 
 Design and fabricate an Industrial IoT Safety SoC.
+
+### 1 Open Lane (config.json Changes)
+
+#### Key Changes and Explanations:
+
+- DESIGN_NAME: Updated the design name to Ultra_Low_Power_Microwatt_Safety_SoC to reflect your project's name.
+
+- VERILOG_FILES:
+
+   - Updated to include the Microwatt core (microwatt_core.v) and other essential Verilog files such as user_proj_timer.v.
+
+- EXTRA_GDS_FILES:
+
+   - These are the layout files for the components. The updated version now includes your own components such as the user_proj_timer.gds.
+
+- EXTRA_LIBS:
+
+   - Updated the library files to link to your custom library like user_proj_timer.lib.
+
+- FP_PDN and Timing Parameters:
+
+   - Updated the power distribution (PDN) settings and constraints specific to your project’s design.
+
+- CORE_AREA and DIE_AREA:
+
+   - The core and die area have been set to the default values; you can adjust them based on your project’s space constraints and specific requirements.
